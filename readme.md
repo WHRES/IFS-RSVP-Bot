@@ -1,7 +1,4 @@
-# IFS RSVP 登记助手机器人
-
-## 介绍 & 功能
-这是一款专用于 Ingress First Saturday 活动中 PoC 统计到场人员 RSVP、AP 与等级情况的 Telegram Bot。
+# IFS RSVP 检录助手
 
 
 ## 部署方法
@@ -33,9 +30,9 @@
 
 ![获取 Base ID](https://i.imgur.com/5zPDjFQ.png)
 
- [Get ID Bot](https://t.me/get_id_bot) 
+ 获取POC的 chatID： [Get ID Bot](https://t.me/get_id_bot) 
 
-## 部署至 Heroku
+## Heroku 部署信息
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
