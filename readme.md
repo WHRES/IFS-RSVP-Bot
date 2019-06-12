@@ -3,13 +3,6 @@
 ## 介绍 & 功能
 这是一款专用于 Ingress First Saturday 活动中 PoC 统计到场人员 RSVP、AP 与等级情况的 Telegram Bot。
 
-目前拥有功能：
-
-- 一键部署至 Heroku
-- 快速签到 / 签退
-- 登记玩家等级与 AP（经验值）
-- 限定 PoC 访问 Bot，支持多 PoC 操作
-- 联动 Airtable 服务，快速根据 AP 差额生成全阵营榜单、独立阵营榜单，并可链接访问
 
 ## 部署方法
 ### 准备 AirTable
@@ -40,11 +33,7 @@
 
 ![获取 Base ID](https://i.imgur.com/5zPDjFQ.png)
 
-## 准备 Telegram bot
-
-与 [BotFather](https://t.me/botfather) 对话，新建一个 bot。BotFather 会在创建 bot 之后给你这个 bot 的 token（形如 `123456:1234567890ABCDEFGabcdefg`），保留它。
-
-然后 ENL PoC 和 RES PoC 各向 [Get ID Bot](https://t.me/get_id_bot) 发送一条消息。这个 bot 会将你的数字 ID 返回给你（`Your Chat ID = 000000`，后面的数字就是你的数字 ID）。也要保留它。
+ [Get ID Bot](https://t.me/get_id_bot) 
 
 ## 部署至 Heroku
 
